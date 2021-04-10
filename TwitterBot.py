@@ -23,7 +23,7 @@ def retrieve_last_seen_id(file_name):
 
 def store_last_seen_id(last_seen_id, file_name):
     f_write = open(file_name, 'w')
-    f_write.write(str(last_seen_id))
+    f_write.write(str(last_seen_id)) #writeops
     f_write.close()
     return
 
