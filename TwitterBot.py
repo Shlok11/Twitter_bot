@@ -6,7 +6,7 @@ print("This is twitter bot", flush=True)
 
 CONSUMER_KEY = 'aaaaaaaa'
 CONSUMER_SECRET = 'fgfgff'
-ACCESS_KEY = 'dydhydyd'
+ACCESS_KEY = 'dydhydsyd'
 ACCESS_SECRET = 'edyededed'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
